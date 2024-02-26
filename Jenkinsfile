@@ -12,11 +12,11 @@ stage("git")
 
 }
 }
-stage('run')
+stage("run")
 {
 steps
 { 
-sh "java -cp  Demo.java"
+sh "java -cp java Demo.java"
 sh "python3 main.py"
 }
 }
