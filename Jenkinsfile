@@ -5,7 +5,7 @@ stages
 {
 stage("git")
 {
-step git "https://github.com/gnana249/taskwindows.git"
+git "https://github.com/gnana249/taskwindows.git"
 }
 }
 stage('run')
