@@ -5,12 +5,16 @@ stages
 {
 stage("git")
 {
-git "https://github.com/gnana249/taskwindows.git"
+  steps
+  {
+    git "https://github.com/gnana249/taskwindows.git"
+       }
+
 }
 }
 stage('run')
 {
-step
+steps
 { 
 sh "java -cp  Demo.java"
 sh "python3 main.py"
