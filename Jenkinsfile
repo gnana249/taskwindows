@@ -13,7 +13,7 @@ stage('run')
 step
 { 
 sh "java -cp  Demo.java"
-sh python3 main.py
+sh "python3 main.py"
 }
 }
 }
