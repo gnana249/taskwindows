@@ -18,7 +18,7 @@ pipeline
             {
              bat "javac Demo.java"
              bat "java Demo.java"
-             bat "python3 main.py"
+             
              
              }
         }
