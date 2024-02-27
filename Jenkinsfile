@@ -17,7 +17,7 @@ pipeline
          steps
             {
              echo "java Demo.java"
-             echo"python3 main.py"
+             echo "python3 main.py"
              }
         }
        
